@@ -1,0 +1,83 @@
+/* selector universal */
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+/* selectores de ID*/
+#contenedor {
+   width: 1200px;
+   height: 1000px;
+   background-color: antiquewhite;
+
+}
+
+#encabezado {
+   height: 15%;
+   background-color: chocolate;
+   margin: lem;
+
+
+}
+
+#menu {
+   height: 5%;
+   background-color: brown;
+   margin: lem auto;
+}
+
+#contenido {
+   height: 70%;
+   width: 61%;
+   background-color: coral;
+   margin: 0.5% em;
+   float: left;
+
+}
+
+#fueraSeccion {
+   height: 70%;
+   width: 36%;
+   background-color: antiquewhite;
+   margin: 0.5 em;
+   float: right;
+   
+}
+
+#pie {
+    height: 5%;
+    background-color: darkgray;
+    border-radius: 1em;
+    margin: 1.5em;
+
+}
+
+/* selector de clase */
+
+.texto {
+    text-align: justify;
+    font-family: tahoma;
+    font-size: 12;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+
+}
+
+.encabezado_articulo {
+    text-align: center;
+    background: #333;
+    color: white;
+    margin: auto 2em;
+
+}
+
+.imagenes {
+    display: block;
+    border: 1px solid #ddd;
+    margin-left: 4%;
+    border-radius: 4px;
+    width: 150px;
+
+}
