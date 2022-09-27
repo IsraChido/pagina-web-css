@@ -5,43 +5,50 @@
     margin: 0 auto;
 }
 
+/* selector de etiqueta */
+img {  
+    max-width: 100%;  
+    height: auto;  
+    
+}  
+
 /* selectores de ID*/
 #contenedor {
-   width: 1200px;
-   height: 1000px;
-   background-color: antiquewhite;
+    width: 1200px;
+    height: 1000px;
+    background-color: lightsalmon;
 
 }
 
 #encabezado {
-   height: 15%;
-   background-color: chocolate;
-   margin: lem;
-
+    height: 15%;
+    background-color: chocolate;
+    margin: lem;
+    text-align: center;
 
 }
 
 #menu {
-   height: 5%;
-   background-color: brown;
-   margin: lem auto;
+    height: 5%;
+    background-color: lightcoral;
+    margin: lem auto;
 }
 
 #contenido {
-   height: 70%;
-   width: 61%;
-   background-color: coral;
-   margin: 0.5% em;
-   float: left;
+    height: 70%;
+    width: 61%;
+    background-color: coral;
+    margin: 0.5% em;
+    float: left;
 
 }
 
 #fueraSeccion {
-   height: 70%;
-   width: 36%;
-   background-color: antiquewhite;
-   margin: 0.5 em;
-   float: right;
+    height: 70%;
+    width: 36%;
+    background-color: burlywood;
+    margin: 0.5 em;
+    float: right;
    
 }
 
@@ -74,10 +81,26 @@
 }
 
 .imagenes {
-    display: block;
-    border: 1px solid #ddd;
+    display: inline-block;
     margin-left: 4%;
     border-radius: 4px;
-    width: 150px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Selector de etiqueta */
+
+ul {
+    text-align: center;
+
+}
+
+li {
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
 
 }
